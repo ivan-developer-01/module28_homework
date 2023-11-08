@@ -1,4 +1,4 @@
-const https = require('https');
+const https = require('node:https');
 
 https.get('https://jsonplaceholder.typicode.com/posts', (res) => {
 	let data = "";
